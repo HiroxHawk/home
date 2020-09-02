@@ -104,7 +104,7 @@ def seminar_schedule():
     sendToList = send_list.split(',')
     smtpobj.sendmail('〇〇bot@gmail.com',sendToList, msg.as_string())
     smtpobj.close()
-    #コンソールに送信ログを表示
+    #コンソールに送信ログを表示してファイルを閉じる
     print('【'+ str(date.year) + '年' + str(date.month) + '月' + str(date.day) + '日にお知らせメッセージが送信されました】')
     time.sleep(4)
     os.remove('//〇〇/share/〇〇共有/セミナースケジュール/自動送信用蓄積ファイル/★セミナー一覧【申込み数】.pdf')
