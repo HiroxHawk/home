@@ -76,7 +76,7 @@ def seminar_schedule():
     smtpobj.ehlo()
     smtpobj.starttls()
     smtpobj.ehlo()
-    smtpobj.login('hikarulandbot@gmail.com', 'landbot_311')
+    smtpobj.login('●●bot@gmail.com', '●●')
 
     #メールタイトル・本文
     date = datetime.datetime.now()
